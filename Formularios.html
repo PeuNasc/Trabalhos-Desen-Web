@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechConnect</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <section>
+        <table>
+             <form action="enviado.html">
+        <header >
+             <h1>TechConnect</h1>
+        </header>
+             <h2>INSCRIÇÃO</h2>
+                <label for="nome">NOME:</label>
+                    <input type="text" required><br>
+        <br>
+                <label for="sobrenome">SOBRENOME:</label>
+                    <input type="text" required><br>
+        <br>
+                <label for="nome social">NOME SOCIAL (Opcional):</label>
+                    <input type="text"><br>
+        <br>
+                <label for="email">E-MAIL:</label>
+                    <input type="email" required><br>
+        <br>
+                <label aling="center" for="telefone">TELEFONE PARA CONTATO:(OPCIONAL)</label>
+                    <input aling="center" type="tel" class="input-padrao" placeholder="(xx) xxxxx-xxxx"><br>
+        <br>
+                <label aling="center" for="participação">TIPO DE INGRESSO:</label>
+                    <input  type="radio" name="ingresso" value="tipo"
+                    required>Presencial
+                    <input type="radio" name="ingresso" value="tipo" required>Online
+        <br>
+        <br>
+        <fieldset>
+                <label for="termos">ACEITA OS TERMOS DE CONTRATAÇÃO DO SERVIÇO?</label>
+                    <input type="checkbox" name="termos" value="aceitação" required>SIM
+        
+                </fieldset>
+        <br>
+                    <input type="hidden">
+                    <input type="submit" value="ENVIAR">
+    </section>
+</form> 
+</body>
+</html>

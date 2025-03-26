@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechConnect</title>
+    <link rel="stylesheet" href="enviado.css">
+    <script>
+        function gerarNumeroInscricao() {
+            var numeroInscricao = Math.floor(Math.random() * 900000) + 100000;
+            document.getElementById("numero-inscricao").textContent = numeroInscricao;
+        }
+    </script>
+</head>
+<body onload="gerarNumeroInscricao()">
+    <header><h1>INSCRIÇÃO REALIZADA COM SUCESSO!</h1></header>
+    <section>
+        <h2>
+            Seu ingresso para o TechFuture Summit 2025 foi garantido:
+        </h2>
+        <p>Número de Inscrição: <span id="numero-inscricao"></span></p>
+        </section>
+        <ul>
+            <li style="display: block;"><em>DATA: 27/05/2025</em></li>
+            <li style="display: block;">LOCAL: Centro de Convenções Salvador - Boca do Rio, Salvador - BA</li>
+            <li style="display: block;">HORÁRIO: a partir das 09:00h</li>
+        </ul>
+</body>
+</html>

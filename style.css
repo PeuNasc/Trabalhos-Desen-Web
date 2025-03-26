@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #2c2828;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #6a5acd, #3b82f6);
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+
+
+h2{
+    color: #083d92;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#esperar{
+    color: #083d92;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #0044cc;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+.IMAGEM {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 10px auto;
+    display: block;
+}
+
+
+section img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+
+input{
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.container{
+    text-align: center;
+    
+}
+
+input:hover{
+    background-color: #021b57;
+}
+
+
+#bioelonmusk, #biomark, #biotonystark {
+    font-size: 1em;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#bioelonmusk, #biomark, #biotonystark {
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px)
+{
+    body {
+        margin: 1
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    
+    h1 {
+        font-size: 2em;
+        word-wrap: break-word;
+    }
+
+    .IMAGEM {
+        width: 75%
+        height: auto;
+    }
+
+    ul {
+        font-size: 1em;
+        padding-left: 20px;
+    }
+
+    input {
+        width: 200px;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+        padding: 15px;
+        overflow-x: hidden;
+    }
+
+    }
